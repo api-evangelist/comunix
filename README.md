@@ -64,5 +64,119 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Comunix is a company surfaced via the API Evangelist harvest backlog (source: secondary-market) and added to the network as a stub for full-pipeline profiling.
-- https://www.nasdaqprivatemarket.com/
+Comunix is a social gaming company that creates interactive live gaming experiences centered on human connection. Their flagship product, Pokerface, combines group video chat with Texas Hold’em poker, allowing players worldwide to meet, play, and socialize in real time. Founded by seasoned technology and gaming professionals, Comunix aims to reinvent online gaming by integrating innovative communication methods and fostering community.
+
+**Areas:** Gaming · Social · Live · VideoChat · Poker
+
+## Comunix on APIs.io
+
+Everything profiled for Comunix is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/comunix/](https://apis.io/providers/comunix/)** — or go straight to one of the APIs or properties below.
+
+### APIs (7)
+
+- [Comunix Comunix API](https://apis.io/apis/comunix/comunix-comunix-api-api/) — The Comunix API API from Comunix — 1 operation(s) for comunix api.
+- [Comunix Incidents API](https://apis.io/apis/comunix/comunix-incidents-api/) — The Incidents API from Comunix — 2 operation(s) for incidents.
+- [Comunix Register API](https://apis.io/apis/comunix/comunix-register-api/) — The Register API from Comunix — 1 operation(s) for register.
+- [Comunix Sunshine API](https://apis.io/apis/comunix/comunix-sunshine-api/) — The Sunshine API from Comunix — 4 operation(s) for sunshine.
+- [Comunix Tickets API](https://apis.io/apis/comunix/comunix-tickets-api/) — The Tickets API from Comunix — 1 operation(s) for tickets.
+- [Comunix User Profiles API](https://apis.io/apis/comunix/comunix-user-profiles-api/) — The User Profiles API from Comunix — 3 operation(s) for user profiles.
+- [Comunix Users API](https://apis.io/apis/comunix/comunix-users-api/) — The Users API from Comunix — 1 operation(s) for users.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### JSON Schema (6)
+
+The data models the API reads and writes.
+
+- [GetApiV2UserProfilesResponse](https://apis.io/schemas/comunix/comunix-get-api-v2-user-profiles-response/)
+- [PostApiSunshineObjectsObjectidRequest](https://apis.io/schemas/comunix/comunix-post-api-sunshine-objects-objectid-request/)
+- [PostApiSunshineSunshineidTypesRequest](https://apis.io/schemas/comunix/comunix-post-api-sunshine-sunshineid-types-request/)
+- [PostApiV2UserProfilesEventsRequest](https://apis.io/schemas/comunix/comunix-post-api-v2-user-profiles-events-request/)
+- [PutApiV2UserProfilesRequest](https://apis.io/schemas/comunix/comunix-put-api-v2-user-profiles-request/)
+- [PutApiV2UserProfilesResponse](https://apis.io/schemas/comunix/comunix-put-api-v2-user-profiles-response/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Comunix Context](https://apis.io/jsonld/comunix/comunix-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [Comunix API Rules](https://apis.io/rules/comunix/comunix-rules/)
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Comunix Authentication](https://apis.io/security/comunix/comunix-authentication/)
+- [Comunix Domain Security](https://apis.io/security/comunix/comunix-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://www.getcomunix.com)
+- [Documentation](https://developer.zendesk.com/)
+- [Getting started](https://developer.zendesk.com/documentation/developer-tools/getting-started/getting-a-trial-or-sponsored-account-for-development/)
+- [Support](https://getcomunixhelp.zendesk.com/hc/en-us)
+- [Blog](https://www.getcomunix.com/blog)
+- [Terms of service](https://www.getcomunix.com/terms-of-use)
+- [Privacy policy](https://www.getcomunix.com/privacy-policy)
+
+## API Evangelist rating
+
+**Kin Score 31.9** — thin · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 78.6 |
+| Contract quality | 24.6 |
+| Contract governance | 22.0 |
+| Operational transparency | 0.0 |
+| Developer ergonomics | 40.5 |
+| Access clarity | 21.1 |
+
+**Agent readiness 18.0** — agent-aware
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | bearer (partial credit) |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | partial |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 24.5** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/comunix/](https://apis.io/providers/comunix/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Comunix: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/comunix/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
